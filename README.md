@@ -22,3 +22,19 @@
 5. Method nilaiKinerja() bekerja dalam mengevaluasi nilai IPK menggunakan pemilihan if-else. Lalu 
    kriteria yang digunakan untuk menentukan nilai kinerja adalah rentang IPK, terbagi dalam beberapa batas nilai, seperti : ipk >= 3.5, ipk >= 3.0, dan ipk >= 2.0.
    Method akan mengembalikan (return) nilai berupa String yang menyatakan kategori kinerja mahasiswa, yaitu "Kinerja sangat baik", "Kinerja baik", "Kinerja cukup", "Kinerja kurang".
+
+***Percobaan 2***
+1.	Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! 
+   Apa nama object yang dihasilkan?
+2.	Bagaimana cara mengakses atribut dan method dari suatu objek?
+3.	Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+
+***Jawaban Percobaan 2***
+1. Baris kode yang melakukan instansiasi adalah : Mahasiswa16 mhs1 = new Mahasiswa16();
+   nama objek yang dihasilkan adalah "mhs1".
+2. cara mengakses atribut = namaObject.namaAtribut = nilai;
+   cara mengakses method = namaObject.namaMethod();
+3. Karena di antara pemanggilan tampilkanInformasi() pertama dan kedua terdapat dua method yang 
+   mengubah nilai atribut object mhs1, yaitu : 
+   - mhs1.ubahKelas("SI 2K"); -> mengubah kelas dari "SI 2J" ke "SI 2K"
+   - mhs1.updateIPK(3.60);    -> mengubah ipk dari "3.55" ke "3.60"
