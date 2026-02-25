@@ -16,6 +16,11 @@ public class MahasiswaMain16 {
         mhs2.updateIPK(3.30);
         mhs2.tampilkanInformasi();
 
+        Mahasiswa16 mhsNadia = new Mahasiswa16("Nadia Alya", "254107060073", 3.75, "SIB 1F");
+        mhsNadia.tampilkanInformasi();
+        System.out.println(mhsNadia.nilaiKinerja());
+
+
     }
 
     String nama;
