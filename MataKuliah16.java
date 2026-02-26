@@ -28,4 +28,14 @@ public class MataKuliah16 {
                     + jumlahJam + "jam");
         }
     }
+
+    public MataKuliah16() {
+
+    }
+    public MataKuliah16(String nm, String kodeMK, int sks, int jmlJam) {
+        nama = nm;
+        this.kodeMk = kodeMK;
+        this.sks = sks;
+        jumlahJam = jmlJam;
+    }
 }
